@@ -37,4 +37,22 @@ li > span {
     color: gray;
 }
 
+td[rowspan], td[colspan], .yrok td {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+tr[class="nomera"] > td {
+  color: white;
+  background: green;
+  text-align: center;
+}
+
+#tanya, #Serega, #Sasha {
+  color: orange;
+  background: white;
+  text-align: left;
+}
+
 
