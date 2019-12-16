@@ -25,15 +25,15 @@ li > span {
     font-weight: bold;
 }
 
-ol[class="li-green"] li {
+.li-green li {
     color: green;
 }
 
-ol[class="li-red"] li {
+.li-red li {
     color: red;
 }
 
-ol[class="li-gray"] li {
+.li-gray li {
     color: gray;
 }
 
