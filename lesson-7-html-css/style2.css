@@ -1,0 +1,22 @@
+.main-color a{
+    color: blue;
+}
+.google-color a{
+    color: #666
+}
+.yandex-color a{
+    color: #f70;
+
+}
+
+a > .nonedecoration {
+    text-decoration: none;
+}
+
+a[target] {
+    text-decoration: none;
+}
+
+a > span {
+    text-decoration: underline;
+}
