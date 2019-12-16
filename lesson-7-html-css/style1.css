@@ -1,0 +1,40 @@
+h1 {
+    text-align: right;
+    color: orange;
+}
+
+p > span {
+    color: red;
+    font-size: 30px;
+}
+
+em {
+    background-color: green;
+    color: white;
+}
+
+.h2-ogorod {
+    color: orange;
+}
+
+.h2-sklad {
+    color: blue;
+}
+
+li > span {
+    font-weight: bold;
+}
+
+ol[class="li-green"] li {
+    color: green;
+}
+
+ol[class="li-red"] li {
+    color: red;
+}
+
+ol[class="li-gray"] li {
+    color: gray;
+}
+
+
