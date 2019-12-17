@@ -1,0 +1,19 @@
+.bg-blue-pink td:nth-child(even) {
+    background-color: #DDEBF8;
+}
+.bg-blue-pink td:nth-child(odd) {
+    background-color: #F2F2DD;
+}
+.bg-blue-pink td:nth-child(1) {
+    background-color: #DDEBF8;
+}
+.bg-white-pink td:nth-child(even) {
+    background-color: #ffffff;
+}
+.bg-white-pink td:nth-child(odd) {
+    background-color: #F2F2DD;
+}
+.bg-white-pink td:nth-child(1) {
+    background-color: #ffffff;
+}
+
