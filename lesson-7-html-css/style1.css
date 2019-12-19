@@ -1,0 +1,58 @@
+h1 {
+    text-align: right;
+    color: orange;
+}
+
+p > span {
+    color: red;
+    font-size: 30px;
+}
+
+em {
+    background-color: green;
+    color: white;
+}
+
+.h2-ogorod {
+    color: orange;
+}
+
+.h2-sklad {
+    color: blue;
+}
+
+li > span {
+    font-weight: bold;
+}
+
+.li-green li {
+    color: green;
+}
+
+.li-red li {
+    color: red;
+}
+
+.li-gray li {
+    color: gray;
+}
+
+td[rowspan], td[colspan], .yrok td {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+tr[class="nomera"] > td {
+  color: white;
+  background: green;
+  text-align: center;
+}
+
+#tanya, #Serega, #Sasha {
+  color: orange;
+  background: white;
+  text-align: left;
+}
+
+
