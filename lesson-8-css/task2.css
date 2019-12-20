@@ -1,9 +1,9 @@
-a{
+a {
     color: #ffff;
     text-decoration: none;
 }
 
-li{
+li {
     display: inline-flex;
     line-height: 48px;
     color: #ffff;
@@ -24,13 +24,12 @@ body {
     margin: 0;
 }
 
-li:nth-child(8){
+li:nth-child(8) {
     float: right;
 }
 
 li:hover {
     background-color: #EEEEEE;
     color: #A0A09E;
-    line-height: 48px;
 }
 
