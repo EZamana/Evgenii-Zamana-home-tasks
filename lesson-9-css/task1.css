@@ -9,6 +9,7 @@ div {
 label {
     text-decoration: underline;
     margin: 32px;
+    cursor: pointer;
 }
 
 label[for="red"] {
