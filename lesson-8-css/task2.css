@@ -1,0 +1,35 @@
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+li {
+    display: inline-flex;
+    line-height: 48px;
+    color: #ffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    padding: 0 16px 0 16px;
+}
+
+ul {
+    margin: 0;
+    background-color: #A64DFF;
+    padding-left: 75px;
+    padding-right: 78px;
+}
+
+body {
+    margin: 0;
+}
+
+li:nth-child(8) {
+    float: right;
+}
+
+li:hover {
+    background-color: #EEEEEE;
+    color: #A0A09E;
+}
+
