@@ -6,12 +6,16 @@ h1, h2, a {
     text-transform: uppercase;
 }
 
+h1, a {
+    color: white;
+}
+
 h1, h2 {
-    font-size: 25px;
+    font-size: 24px;
     margin: 0 auto;
 }
 
-h2, sup, sub {
+h2 {
     font-weight: normal;
 }
 
@@ -19,13 +23,16 @@ li:before {
     content: url("images/arrow.png");
     padding-right: 15px;
     position: relative;
-    top: 3px;
+    top: 2px;
 }
 
 li {
     list-style-type: none;
-    font-size: 12pt;
-    padding: 9px 0 9px 34px;
+    font-size: 11pt;
+    padding: 7px 0 7px 34px;
+    font-weight: 600;
+    color: #888c94;
+    margin: 1px 0;
 }
 
 ul {
@@ -43,6 +50,9 @@ li:nth-child(even) {
 
 span {
     font-size: 75px;
+}
+
+sup, sub, span {
     font-weight: 600;
 }
 
@@ -78,27 +88,22 @@ a {
 }
 
 .bestValue-offers {
-    margin: 20px auto 18px auto;
+    margin: 18px auto 14px auto;
     width: 260px;
 }
 
 .bestValue-main {
-    padding: 15px 0 30px 0;
+    padding: 13px 0 30px 0;
     width: 288px;
     background-color: white;
 }
 
 .bestValue {
     background-color: #EE8129;
-    display: block;
     border-radius: 5px;
-    box-shadow: 0 0 8px #cbe2ef;
+    box-shadow: 0 0 8px #86c9ee;
     width: 288px;
     padding: 0 4px 4px 4px;
-}
-
-h1, a {
-    color: white;
 }
 
 .bestValue-title {
