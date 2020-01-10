@@ -1,0 +1,83 @@
+.container {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+}
+
+h3:first-child:before {
+    content: "- ";
+}
+
+img {
+    width: 94px;
+    height: 94px;
+    margin-right: 8px;
+}
+
+.left-message, .right-message, img, .message {
+    float: left;
+}
+
+h3 {
+    display: inline-block;
+    font-style: italic;
+    font-size: 15px;
+    color: #3170a8;
+    font-weight: normal;
+}
+
+p, h3 {
+    margin: 0;
+}
+
+p {
+    font-size: 15px;
+    color: #7f7f7f;
+}
+
+.name {
+    border-bottom: 2px dotted #7f7f7f;
+    padding-bottom: 8px;
+}
+
+.message {
+    margin-left: 20px;
+    background-color: white;
+    padding: 12px;
+    position: relative;
+}
+
+h3:nth-child(even) {
+    float: right;
+}
+
+.right-message {
+    margin-left: 50px;
+}
+
+h2 {
+    color: #3170a8;
+    font-size: 33px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span {
+    color: #ab6c29;
+}
+
+.quote {
+    padding-top: 8px;
+}
+
+.message:before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 37px;
+    border: 15px solid transparent;
+    border-right: 15px solid white;
+}
