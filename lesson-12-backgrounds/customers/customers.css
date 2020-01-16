@@ -24,7 +24,7 @@ section {
     background-size: cover;
 }
 
-#MikeStatham .customer-information{
+#MikeStatham .customer-information {
     text-align: right;
 }
 
@@ -45,7 +45,7 @@ article div {
     color: red;
 }
 
-.customer-information__subtitle{
+.customer-information__subtitle {
     font-size: 12px;
     line-height: 20px;
     margin: 0;
@@ -53,7 +53,7 @@ article div {
 }
 
 .customer-information__comment {
-    font-size: 14x;
+    font-size: 14px;
     line-height: 22px;
     margin: 0;
 }
